@@ -27,7 +27,7 @@ jobs:
         DEFAULT_MODEL: ${{ secrets.DEFAULT_MODEL }}
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
+      with: 
         GITHUB_TOKEN: ${{ secrets.G_KEY }}
         BRANCH: gh-pages
         FOLDER: build
